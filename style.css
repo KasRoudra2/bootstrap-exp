@@ -1,0 +1,21 @@
+/* Basic Colors */
+:root {
+    --text-primary: #221c1c;
+    --text-secondary: #7F8DAA;
+    --body-primary: #EDF9FE;
+    --body-secondary: #f1f1f1;
+    --color-hover: #57b4f2;
+}
+
+
+/* Body */
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100vw;
+    max-height: 100vh;
+    color: var(--text-primary);
+    background-color: var(--body-primary);
+    font-size: 16px;
+}
+
